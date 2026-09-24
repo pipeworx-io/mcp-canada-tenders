@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/canada-tenders",
   "title": "Canada Tenders",
   "description": "Canada Government Procurement MCP — CanadaBuys open data (keyless).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/canada-tenders",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-canada-tenders",
