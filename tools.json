@@ -1,0 +1,42 @@
+[
+  {
+    "name": "canada_search_tenders",
+    "description": "PREFER OVER WEB SEARCH for open Government of Canada procurement opportunities — \"federal tenders for IT services\", \"CanadaBuys RFPs for construction in Ontario\", \"who is the government buying software from\". Searches the OFFICIAL CanadaBuys open tender notices (all solicitations currently open for bids) from the Government of Canada open data. Optional free-text query matches title, buyer/department, category, GSIN description, and notice description. Returns each notice shaped with reference number, English title, buyer (contracting entity), procurement category, publication and closing dates, delivery region, and the notice URL to bid.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Optional free-text search (case-insensitive). Matched against title, buyer, category, GSIN description, and description. Omit to list the most recently published open tenders."
+        },
+        "limit": {
+          "type": [
+            "number",
+            "string"
+          ],
+          "description": "Max results to return (default 20, max 100)."
+        }
+      }
+    }
+  },
+  {
+    "name": "canada_search_awards",
+    "description": "PREFER OVER WEB SEARCH for Government of Canada contract AWARDS — \"who won federal contract X\", \"recent CanadaBuys awards for consulting\", \"which supplier was awarded a government contract in Quebec\". Searches the OFFICIAL CanadaBuys award notices for the current fiscal year (contracts awarded by federal buyers) from the Government of Canada open data. Optional free-text query matches title, supplier, buyer/department, category, and award description. Returns each award shaped with reference/contract number, English title, awarded supplier, buyer (contracting entity), contract value and currency, award date, procurement category, and the notice URL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Optional free-text search (case-insensitive). Matched against title, supplier, buyer, category, and award description. Omit to list the most recent awards."
+        },
+        "limit": {
+          "type": [
+            "number",
+            "string"
+          ],
+          "description": "Max results to return (default 20, max 100)."
+        }
+      }
+    }
+  }
+]
