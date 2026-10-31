@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-canada-tenders",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Canada Government Procurement MCP — CanadaBuys open data (keyless).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "canada-tenders",
     "gatewaySlug": "canada-tenders",
-    "sourceHash": "v1-08d85646a5d59c36d29a30469656bfd4a15b46f6b7ef045a1a4e2c89255a9e11",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-db444c67b22f1c86500956bf0be7a3d817b6d8c1c7375dd47981401cb4d33051",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
